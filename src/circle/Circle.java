@@ -11,12 +11,12 @@ public class Circle {
         this.radius = radius;
     }
 
-    private double areaСalculation() {
+    private double getArea() {
         return radius * radius * Math.PI;
     }
 
     @Override
     public String toString() {
-        return "radius=" + radius + "area calculation= " + areaСalculation();
+        return "radius=" + radius + "area calculation= " + getArea();
     }
 }

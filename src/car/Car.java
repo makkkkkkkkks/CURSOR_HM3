@@ -28,19 +28,11 @@ public class Car {
         this.color = color;
     }
 
-    public String getModel() {
-        return model;
-    }
-
-    public void setModel(String model) {
-        this.model = model;
-    }
-
     public void startDriving(boolean command) {
         if (command = true) {
-            System.out.println("brand " + brand + "Color" + color + "Model " + model + "Speed is " + "Start driving");
+            System.out.println("brand " + brand + " Color " + color + " Model " + model + " Speed is " + "Start driving");
         } else if (command = false) {
-            System.out.println("brand " + brand + "Color" + color + "Model " + model + "Speed is " + "Stop driving");
+            System.out.println("brand " + brand + " Color " + color + " Model " + model + " Speed is " + "Stop driving");
         }
     }
 

@@ -1,9 +1,9 @@
-package object.counter;
+package objectcount;
 
-public class CountObject {
+public class ObjectCounting {
     private static int count;
 
-    public CountObject() {
+    public ObjectCounting() {
         count++;
     }
 

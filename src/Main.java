@@ -11,6 +11,5 @@ public class Main {
         car.startDriving(true);
         car.startDriving(false);
         car.sppedDriving(60);
-
     }
 }
