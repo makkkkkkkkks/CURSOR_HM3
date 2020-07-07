@@ -1,5 +1,7 @@
-import car.Car;
-import circle.Circle;
+package main.java.com.makkkkkkkkks;
+
+import main.java.com.makkkkkkkkks.car.Car;
+import main.java.com.makkkkkkkkks.circle.Circle;
 
 public class Main {
 
@@ -8,8 +10,8 @@ public class Main {
         System.out.println("Circle area: " + circle);
 
         Car car = new Car("toyota", "red", "miniven");
-        car.startDriving(true);
-        car.startDriving(false);
+        car.startDriving("start");
+        car.startDriving("stop");
         car.sppedDriving(60);
     }
 }

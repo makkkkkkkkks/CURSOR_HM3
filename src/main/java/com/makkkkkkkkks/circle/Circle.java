@@ -1,4 +1,4 @@
-package circle;
+package main.java.com.makkkkkkkkks.circle;
 
 public class Circle {
     private double radius;

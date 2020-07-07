@@ -1,10 +1,9 @@
-package car;
+package main.java.com.makkkkkkkkks.car;
 
 public class Car {
     private String brand;
     private String color;
     private String model;
-
 
     public Car(String brand, String color, String model) {
         this.brand = brand;
@@ -28,17 +27,15 @@ public class Car {
         this.color = color;
     }
 
-    public void startDriving(boolean command) {
-        if (command = true) {
-            System.out.println("brand " + brand + " Color " + color + " Model " + model + " Speed is " + "Start driving");
-        } else if (command = false) {
-            System.out.println("brand " + brand + " Color " + color + " Model " + model + " Speed is " + "Stop driving");
+    public void startDriving(String command) {
+        if (command.equals("start")) {
+            System.out.println("brand " + brand + " Color " + color + " Model " + model + " Start driving ");
+        } else if (command.equals("stop")) {
+            System.out.println("brand " + brand + " Color " + color + " Model " + model + " Stop driving ");
         }
     }
 
     public void sppedDriving(int speed) {
-        System.out.println("brand " + brand + "Color" + color + "Model " + model + "Speed is " + speed);
+        System.out.println("brand " + brand + " Color " + color + " Model " + model + " Speed is " + speed);
     }
-
-
 }

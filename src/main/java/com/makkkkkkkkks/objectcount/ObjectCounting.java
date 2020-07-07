@@ -1,4 +1,4 @@
-package objectcount;
+package main.java.com.makkkkkkkkks.objectcount;
 
 public class ObjectCounting {
     private static int count;
