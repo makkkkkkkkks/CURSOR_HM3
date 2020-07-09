@@ -1,17 +1,10 @@
 package main.java.com.makkkkkkkkks;
 
-import main.java.com.makkkkkkkkks.car.Car;
-import main.java.com.makkkkkkkkks.circle.Circle;
+import main.java.com.makkkkkkkkks.objectcount.StartProgram;
 
 public class Main {
 
     public static void main(String[] args) {
-        Circle circle = new Circle(10);
-        System.out.println("Circle area: " + circle);
-
-        Car car = new Car("toyota", "red", "miniven");
-        car.startDriving("start");
-        car.startDriving("stop");
-        car.sppedDriving(60);
+        StartProgram.start();
     }
 }

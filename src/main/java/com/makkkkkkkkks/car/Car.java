@@ -33,6 +33,9 @@ public class Car {
         } else if (command.equals("stop")) {
             System.out.println("brand " + brand + " Color " + color + " Model " + model + " Stop driving ");
         }
+        else{
+            System.out.println("Unknown command");
+        }
     }
 
     public void sppedDriving(int speed) {
